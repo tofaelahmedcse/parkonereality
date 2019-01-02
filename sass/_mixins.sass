@@ -1,0 +1,17 @@
+=border-radius($radius)
+ -webkit-border-radius: $radius
+ -moz-border-radius: $radius
+ -ms-border-radius: $radius
+ border-radius: $radius
+
+=transition($trans)
+ -webkit-transition: $trans
+ -moz-transition: $trans
+ -ms-transition: $trans
+ transition: $trans
+
+=grid($cols, $mgn)
+ float: left
+ margin-right: $mgn
+ width: ((100% - (($cols - 1) * $mgn)) / $cols)
+ 
